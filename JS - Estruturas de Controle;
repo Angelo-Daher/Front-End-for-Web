@@ -1,0 +1,66 @@
+1-
+
+newFunction();
+
+function newFunction() {
+    let idade = Number(prompt("Qual é a sua idade"));
+
+    if (idade > 18) {
+        console.log("Voce tem " + idade + "anos. Voce é maior de idade. Não vai fazer m****");
+    }
+
+    else {
+        console.log("Voce tem" + idade + "Voce é menor de idade. Cuidado!");
+    }
+}
+
+
+2- 
+
+let nota1 = Number(prompt("Digite sua primeira nota: "));
+let nota2 = Number(prompt("Digite sua primeira nota: "));
+let nota3 = Number(prompt("Digite sua primeira nota: "));
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+if(media >= 9) {
+    console.log("Excelente! Voce foi aprovado, sua média é " + media);
+}
+
+else if(media >= 6) {
+    console.log("Excelente! Voce foi aprovado, sua média é " + media);
+}
+
+else{
+    console.log("Que pena! Voce foi reprovado, sua média é " + media);
+}
+
+3-
+
+let dia = prompt("Digite um numero entre 1 e 7 do dia da semana: ");
+
+switch(dia) {
+    case 1:
+        console.log("Domingo");
+        break;
+    case 2:
+        console.log("Segunda");
+        break;
+    case 3:
+        console.log("Terça");
+        break;
+    case 4:
+        console.log("Quarta");
+        break;
+    case 5:
+        console.log("Quinta");
+        break;
+    case 6:
+        console.log("Sexta");
+        break;
+    case 7:
+        console.log("Sábado");
+        break;
+    default:
+        console.log("Digite um número entre 1 a 7");
+}
