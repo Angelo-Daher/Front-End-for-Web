@@ -1,0 +1,32 @@
+IF / ELSE
+
+*** Poder de compra ***
+
+let saldo = prompt("Qual seu saldo bancário?");
+let valorCompra = prompt("Qual o valor da compra? ")
+
+if(saldo >= valorCompra) {
+    console.log("Compra autorizada!");
+}
+else {
+    console.log("Saldo insuficiente!");
+}
+
+
+** Negativo ou positivo? **
+
+let numero = prompt("Digite um número: ");
+
+if(numero < 0) {
+    console.log("Número negativo!");
+}
+else if(numero === 0) {
+    console.log("Número igual a zero!");
+}
+else {
+    console.log("Número positivo!");
+}
+
+
+** ... **
+
