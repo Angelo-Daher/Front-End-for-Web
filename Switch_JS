@@ -1,1 +1,68 @@
+// Escolha seu transporte
 
+let transporte = Number(prompt("Escolha um número entre 1 e 4 para decidir o seu transporte: "));
+
+switch(transporte) {
+    case 1:
+        console.log("Carro");
+        break;
+    case 2:
+        console.log("Moto");
+        break;
+    case 3:
+        console.log("Bicicleta");
+        break;
+    case 4:
+        console.log("Onibus");
+        break;
+    default:
+        console.log("Transporte inválido");
+}
+
+
+// Calculadora Switch
+
+let num1 = Number(prompt("Digite o primeiro número: "));
+let num2 = Number(prompt("Digite o segundo número: "));
+let operacao = Number(prompt("Qual operação deseja fazer; 1- soma, 2- subtração, 3- multiplicação e 4- divisão: "));
+
+switch (operacao) {
+    case 1:
+        console.log("A soma do número " + num1 + " com o número " + num2 + " é: " + (num1 + num2));
+        break;
+    
+    case 2:
+        console.log("A subtração do número " + num1 + " com o número " + num2 + " é: " + (num1 - num2));
+        break;
+    
+    case 3:
+        console.log("O número " + num1 + " multiplicado por " + num2 + " é igual a: " + (num1 * num2));
+        break;
+
+    case 4:
+        console.log("O número " + num1 + " dividido pelo número " + num2 + " é igual a: " + (num1 / num2));
+        break;
+}
+
+
+// Faça seu pedido
+
+let pedido = Number(prompt("Escolha um número de 1 a 4 para fazer seu pedido!"));
+
+switch(pedido) {
+    case 1:
+        console.log("1 - Hambúrguer (R$ 18,00)");
+        break;
+
+    case 2:
+        console.log("2 - Pizza  (R$ 35,00)");
+        break;
+
+    case 3:
+        console.log("3 - Cachorro-quente (R$ 12,00)");
+        break;
+
+    case 4:
+        console.log("4 - Refrigerante (R$ 7,00)");
+        break;
+}
