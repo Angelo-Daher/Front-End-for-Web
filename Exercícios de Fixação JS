@@ -1,6 +1,6 @@
 IF / ELSE
 
-*** Poder de compra ***
+*** Saldo bancário ***
 
 let saldo = prompt("Qual seu saldo bancário?");
 let valorCompra = prompt("Qual o valor da compra? ")
@@ -28,5 +28,16 @@ else {
 }
 
 
-** ... **
+** Poder de compra **
 
+let valorCompra = prompt('Digite o valor da sua compra: ');
+
+if (valorCompra > 200) {
+    let desconto = valorCompra * (20 / 100);
+    let valor_atualizado = valorCompra - desconto;
+    console.log("Sua compra tem direito ao desconto de 20% e o valor atualizado é de:" + valor_atualizado);
+}
+
+else {
+    console.log("Sua compra é no valor de:" + valorCompra);
+}
